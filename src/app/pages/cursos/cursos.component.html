@@ -1,0 +1,13 @@
+<!-- src/app/pages/ingresar-estudiantes/ingresar-estudiantes.component.html -->
+<div>
+  <h2>Ingresar Cursos</h2>
+  <form>
+    <label for="nombre">Nombre:</label>
+    <input [(ngModel)]="curso.nombre" [ngModelOptions]="{standalone: true}">
+
+    <label for="descripcion">Descripcion:</label>
+    <input [(ngModel)]="curso.descripcion" [ngModelOptions]="{standalone: true}">
+
+    <button (click)="ingresarCurso(curso)">Ingresar Curso</button>
+  </form>
+</div>

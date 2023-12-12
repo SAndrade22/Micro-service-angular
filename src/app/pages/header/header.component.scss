@@ -1,0 +1,36 @@
+/* src/app/header/header.component.scss */
+header {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo img {
+    height: 40px; /* Ajusta según el tamaño de tu logo */
+  }
+
+  .title {
+    flex-grow: 1;
+    text-align: center;
+  }
+
+  nav {
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+
+      li {
+        margin-right: 20px;
+
+        a {
+          color: #fff;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

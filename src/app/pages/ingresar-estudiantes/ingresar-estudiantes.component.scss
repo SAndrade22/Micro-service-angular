@@ -1,0 +1,39 @@
+/* src/app/pages/ingresar-estudiantes/ingresar-estudiantes.component.scss */
+div {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+    h2 {
+      font-size: 1.5em;
+      margin-bottom: 20px;
+    }
+  
+    form {
+      display: grid;
+      gap: 10px;
+  
+      label {
+        font-weight: bold;
+      }
+  
+      input {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+      }
+  
+      button {
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+    }
+  }
+  

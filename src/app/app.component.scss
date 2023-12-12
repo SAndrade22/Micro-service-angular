@@ -1,0 +1,89 @@
+/* src/app/app.component.scss 
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  .center-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin-top: 20px;
+  }
+  
+  .left-component,
+  .right-component {
+    width: 48%;
+  }
+  
+  .listado-estudiantes-cursos {
+    margin-top: 20px;
+  }
+  
+  */
+  // styles.scss
+
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$background-color: #ecf0f1;
+$text-color: #34495e;
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: $background-color;
+  color: $text-color;
+  margin: 0;
+  padding: 0;
+}
+
+.app-header {
+  background-color: $primary-color;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.welcome-section {
+  text-align: center;
+  padding: 20px;
+
+  h1 {
+    color: $primary-color;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+
+  p {
+    font-size: 1.2em;
+    line-height: 1.5;
+  }
+}
+
+.center-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.student-course-section {
+  text-align: center;
+  padding: 20px;
+
+  h2 {
+    color: $secondary-color;
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+
+  .listado-estudiantes-cursos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+}
+
+// Add more styles as needed

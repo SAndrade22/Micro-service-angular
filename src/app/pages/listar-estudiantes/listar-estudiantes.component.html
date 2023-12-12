@@ -1,0 +1,9 @@
+<!-- Lista de cursos -->
+<div>
+    <h2>Listado de Inscripciones</h2>
+    <ul>
+      <li *ngFor="let inscripcion of inscripciones">
+        {{ inscripcion.nombre }} - {{ inscripcion.cedula }} - {{ inscripcion.curso }}
+      </li>
+    </ul>
+  </div>
